@@ -1,11 +1,14 @@
 {
   "expo": {
+    "name": "react-native-scaffolding",
+    "slug": "react-native-scaffolding",
     "scheme": "acme",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
     "web": {
       "output": "static",
-      "bundler": "metro"
+      "bundler": "metro",
+      "favicon": "./src/assets/akame-chan.jpg"
     },
     "plugins": [
       [
@@ -15,7 +18,25 @@
         }
       ]
     ],
-    "name": "chupa-renan",
-    "slug": "chupa-renan"
+    "version": "1.0.0",
+    "icon": "./src/assets/akame-chan.jpg",
+    "splash": {
+      "image": "./src/assets/akame-chan.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/akame-chan.jpg",
+        "backgroundColor": "#000000"
+      }
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
